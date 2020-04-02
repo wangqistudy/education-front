@@ -1,0 +1,76 @@
+@import './base.scss';
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-size:$baseFontSize;
+}
+img{
+  border:none;
+}
+ul,li{
+  list-style-type: none;
+}
+
+div,.boxSizing{
+    box-sizing: border-box;
+}
+
+.fixed{
+  position: fixed;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.flex{
+  display:flex;
+}
+
+.flex-space-between{
+  justify-content: space-between;
+}
+
+.flex-space-around{
+  justify-content: space-around;
+}
+
+.flex-space-center{
+  justify-content: center;
+}
+
+.flex-align-center{
+  align-items: center;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+.el-table th.gutter {
+  display: table-cell !important;
+}
+
+.el-table colgroup.gutter {
+  display: table-cell !important;
+}
