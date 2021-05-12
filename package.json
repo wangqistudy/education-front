@@ -30,7 +30,7 @@
     "nuxt": "^2.0.0",
     "object-fit-polyfill": "^0.1.0",
     "qrcode": "^1.4.2",
-    "swiper": "^3.4.2",
+    "swiper": "^6.5.1",
     "video.js": "^7.6.5",
     "videojs-contrib-hls": "^5.15.0",
     "vue": "^2.6.10",
